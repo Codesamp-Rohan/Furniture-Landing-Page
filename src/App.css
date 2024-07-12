@@ -1,0 +1,26 @@
+.product--img--main2 {
+  opacity: 0;
+  transition: 400ms;
+}
+.product--img--container:hover > .product--img--main2 {
+  opacity: 1;
+}
+.menu {
+  background: url("https://wallpapers.com/images/featured/dark-forest-shsyax3tzax42p9o.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+.menu--msg {
+  opacity: 0;
+  transition: 400ms;
+}
+.menu--btn:hover > .menu--msg {
+  opacity: 1 !important;
+}
+@media screen and (max-width: 760px) {
+  .menu--span {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

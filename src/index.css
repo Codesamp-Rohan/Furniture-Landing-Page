@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #f4f4f4;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+body {
+  overflow-x: hidden;
+  background-color: #eee;
+}
+@font-face {
+  font-family: EEP;
+  src: url(./Fonts/PPEiko.woff2);
+}
+@font-face {
+  font-family: EEM;
+  src: url(./Fonts/PPM.woff2);
+}
+.eep {
+  font-family: EEP;
+}
+.eem {
+  font-family: EEM;
+}
